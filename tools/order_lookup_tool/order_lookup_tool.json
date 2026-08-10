@@ -1,0 +1,9 @@
+{
+  "displayName": "order_lookup_tool",
+  "description": "Tool for querying customer order status, shipment tracking, and estimated delivery dates.",
+  "clientFunction": {
+    "name": "lookupOrderStatus",
+    "description": "Retrieves real-time status and delivery estimates for a given order ID."
+  },
+  "executionType": "SYNCHRONOUS"
+}
