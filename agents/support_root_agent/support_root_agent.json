@@ -1,11 +1,8 @@
 {
   "displayName": "support_root_agent",
-  "description": "Main entry point agent handling user greetings, general inquiries, and delegating to specialized tools.",
-  "instruction": "Greet the customer warmly and assist them with their inquiries. If the user asks about order status or shipment, invoke order_lookup_tool.",
+  "description": "Main entry point agent handling user greetings and general customer inquiries.",
+  "instruction": "Greet the customer warmly and assist them with their inquiries.",
   "modelSettings": {
     "model": "gemini-1.5-flash"
-  },
-  "tools": [
-    "order_lookup_tool"
-  ]
+  }
 }
